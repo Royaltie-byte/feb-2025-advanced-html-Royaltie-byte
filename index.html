@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my advanced html5 document</title>
+    <style>
+        body{
+            margin-left: 20px;
+            background-image:url(images/pexels-milan-sabu-411137375-14993078.jpg) ;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; 
+            color: aliceblue; 
+            
+        }
+        img{
+            border-radius: 30px;
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            
+        }
+        .container{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+           
+        }
+        
+            
+        
+        .caption{
+            padding-left: 50px;
+            font-weight: 600;
+        }
+        table{
+            width: 100%;
+            border: 1px solid;
+            border-spacing: 0px;
+            }
+            th,td{
+                border: 1px solid;
+                padding: 5px;
+            }
+        
+    </style>
+</head>
+<header>
+    <strong>HTML5!</strong>
+</header>
+<br>
+<h4>Programming languages</h4>
+<ol type="I">
+    <li>Python</li>
+    <li>Java </li>
+    <li>C++</li>
+    <li>C#</li>
+    <li>Kotlin</li>
+    <li>C</li>
+
+</ol>
+<br>
+<div class="container">
+    <div class="image-box">
+        <img src="images/htmlpic.jpg" alt="picture showing html">
+        <div class="caption"><em>.HTML.</em></div>
+
+    </div>
+    <div class="image-box">
+        <img src="images/java.jpg" alt="image with java text">
+        <div class="caption"><em>.JAVA.</em></div>
+    </div>
+    <div class="image-box">
+        <img src="images/pythonsymbol.jpg" alt="image with a python symbol">
+        <div class="caption"> <em>.PYTHON SYMBOL.</em></div>
+    </div>
+
+</div>
+<br>
+<caption><strong>Contact Information</strong></caption>
+<body>
+    <!--Table that has the contact information-->
+    <table >
+        <tr>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Address</th>
+            <th>Email</th>
+            
+        </tr>
+        <tr>
+            <td>Mary Yale</td>
+            <td>0112344</td>
+            <td>1301-yellowstreet</td>
+            <td>yale@gmail.com</td>
+           
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>0145676</td>
+            <td>1301-yellowstreet</td>
+            <td>@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Emily Richards</td>
+            <td>0745345</td>
+            <td>1301-yellowstreet</td>
+            <td>richards@gmail.com</td>
+           
+        <tr>
+            <td>Susan Schmidt</td>
+            <td>7654345</td>
+            <td>1301-yellowstreet</td>
+            <td>schmidt@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Anne Marie</td>
+            <td>5643287</td>
+            <td>1301-yellowstreet</td>
+            <td>marie@gmail.com</td>
+           
+        </tr>
+    </table>
+    <br>
+    <!--The registration form-->
+    <div>
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label for="name">NAME :</label>
+                <input type="text" id="name" name="name" placeholder="Allan" required>
+                <br>
+                <label for="email">EMAIL :</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                <br>
+                <label for="password">PASSWORD :</label>
+                <input type="password" id="password" name="password" required>
+                
+                <br>
+                <label for="date">DATE :</label>
+                <input type="date" id="date" name="date" required>
+                <br>
+                <label for="state">STATE :</label>
+                <select>
+                    <option>Ohio</option>
+                    <option>Alaska</option>
+                    <option>Florida</option>
+                    <option>California</option>
+                    <option>Chicago</option>
+                    <option>Massachusets</option>
+                </select>
+                <br>
+                <label for="gender">GENDER :</label>
+                <input type="radio" class="gender" name="gender" >Male
+                <input type="radio" class="gender" name="gender">Female
+                <br>
+                <label for="preference">PREFERENCE :</label> 
+                <input type="checkbox" class="check" name="check">Python
+                <input type="checkbox" class="check" name="check">Java
+                <br>
+                <input type="submit" class="button">
+                <input type="reset" class="button">
+                <br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
